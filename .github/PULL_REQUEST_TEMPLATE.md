@@ -1,20 +1,23 @@
-# Description
+MetaMask developer documentation
 
-<!-- Describe the changes made in your pull request (PR). -->
+This is the MetaMask developer documentation repository.
+The documentation site is hosted at [`docs.metamask.io`](https://docs.metamask.io), and it's
+built using [Docusaurus](https://docusaurus.io/), a static site generator purpose-built for
+technical documentation.
 
-## Issue(s) fixed
+## Build locally
 
-<!-- Include the issue number that this PR fixes. -->
+Build the documentation site locally using the following steps.
 
-Fixes #
+### Prerequisites
 
-## Preview
+- [Node.js](https://nodejs.org/) version 18+
+- [Git](https://git-scm.com/)
 
-<!-- Provide a PR preview link to the page(s) changed. -->
+### Steps
 
-## Checklist
+1. Clone the repository.
 
-<!-- Complete the following checklist before merging your PR. -->
-
-- [ ] If this PR updates or adds documentation content that changes or adds technical meaning, it has received an approval from an engineer or DevRel from the relevant team.
-- [ ] If this PR updates or adds documentation content, it has received an approval from a technical writer.
+   ```bash
+   git clone https://github.com/MetaMask/metamask-docs.git
+   cd metamask-docs
